@@ -1,0 +1,15 @@
+{
+  "name": "NightscoutShareServer PHP",
+  "description": "Simple Share Server for pulling Nightscout data to the Loop",
+  "repository": "https://github.com/reelman/NightscoutShareServerPHP",
+  "keywords": ["php", "loop", "nightscout"],
+  "image": "heroku/php",
+  "addons": [],
+  "env": {
+    "NIGHTSCOUT_SERVER_NAME": {
+      "description": "Nightscout server domain, for example: `yourname.herokuapp.com`.",
+      "value": "",
+      "required": true
+    }
+  }
+}
