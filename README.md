@@ -7,7 +7,7 @@ Installation:
 
 1. Get the app on server:
 
-   a) Hit [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/reelman/NightscoutShareServerPHP) and fill domain for your nightscout server.
+   a) Hit [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/reelman/NightscoutShareServerPHP) and fill domain for your nightscout server.
   
    b) OR copy files on your server with PHP support and edit set $_ENV['NIGHTSCOUT_SERVER_NAME'] in ShareWebServices/Services/Publisher/ReadPublisherLatestGlucoseValues/index.php 
 
